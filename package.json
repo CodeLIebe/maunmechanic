@@ -1,0 +1,38 @@
+{
+  "name": "maunmechanic",
+  "version": "1.0.0",
+  "description": "Small business website - bootstrap 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeLIebe/maunmechanic.git"
+  },
+  "keywords": [
+    "Mechanic",
+    "business",
+    "template",
+    "bootstrap",
+    "4",
+    "responsive"
+  ],
+  "author": "codinski.club",
+  "license": "CC-BY-3.0",
+  "bugs": {
+    "url": "https://github.com/CodeLIebe/maunmechanic/issues"
+  },
+  "homepage": "https://github.com/CodeLIebe/maunmechanic#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1",
+    "run-sequence": "^2.2.1"
+  }
+}
