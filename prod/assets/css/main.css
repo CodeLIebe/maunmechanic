@@ -2175,6 +2175,9 @@ body.is-menu-visible #menu {
       pointer-events: none;
       opacity: 0; }
 
+.tiny {
+  font-size: .6rem; }
+
 /* Banner */
 #banner {
   display: -moz-flex;
@@ -2190,7 +2193,7 @@ body.is-menu-visible #menu {
   -ms-justify-content: center;
   justify-content: center;
   cursor: default;
-  height: 100vh;
+  height: 100vh !important;
   overflow: hidden;
   position: relative;
   text-align: center; }

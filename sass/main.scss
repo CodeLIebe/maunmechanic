@@ -1608,6 +1608,9 @@
 			}
 		}
 	}
+	.tiny {
+		font-size: .6rem;
+	}
 
 /* Banner */
 
@@ -1616,7 +1619,7 @@
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
 		cursor: default;
-		height: 100vh;
+		height: 100vh!important;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
